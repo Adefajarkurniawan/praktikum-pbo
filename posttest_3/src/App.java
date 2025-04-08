@@ -7,8 +7,8 @@ public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        Kendaraan mobil = new Kendaraan("Toyota Corolla", "Mobil", 200000);
-        Kendaraan motor = new Kendaraan("Yamaha R15", "Motor", 100000);
+        Kendaraan mobil = new Mobil("Toyota Corolla", "Mobil", 200000);
+        Kendaraan motor = new Motor("Yamaha R15", "Motor", 100000);
           
         mobil.setWarna("Hitam");
         mobil.setMerek("Toyota");
