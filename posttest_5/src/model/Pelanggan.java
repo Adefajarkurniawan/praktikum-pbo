@@ -1,8 +1,8 @@
 package model;
 
-public class Pelanggan {
+public final class Pelanggan {
     private String nama;
-    private String kontak;
+    private final String kontak; // final attribute
 
     public Pelanggan(String nama, String kontak) {
         this.nama = nama;
@@ -13,9 +13,8 @@ public class Pelanggan {
         return nama;
     }
 
-    public String getKontak() {
+    public final String getKontak() { // final method
         return kontak;
-
     }
 
     public String toString() {
